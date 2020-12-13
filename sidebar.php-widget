@@ -1,0 +1,8 @@
+<!-- secondary -->
+<aside id="secondary">
+<!-- サイドバーで設定した項目を表示させる準備 -->
+<?php if( is_active_sidebar('sidebar')) :?>
+<?php dynamic_sidebar('sidebar'); ?>
+<?php endif; ?>
+
+</aside><!-- secondary -->
